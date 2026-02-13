@@ -1,0 +1,43 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    font: 100% Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 0 50px 1em;
+    background: #0066cc;
+    }
+
+header h1 {
+    display: block;
+    width: 50;
+    left: 50;
+    right: 0;
+    margin-left: -4vw;
+    margin-right: 0vw;
+    padding: 1.25rem 2rem;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+
+h1 {
+    width: auto;
+    font-size: 1.75em;
+    margin: 0 auto;
+    padding: 5px 10px;
+    background: #eeee;
+    color: #000000;
+}
+
+div {
+    font-size: 1.5em;
+    width: 40%;
+    background: #a5c9ec;
+    border-radius: 0.5em;
+    padding: 1em;
+    margin: 1em 0;
+    color: black
+}
+
+p {
+    font-size: 1em;
+}
