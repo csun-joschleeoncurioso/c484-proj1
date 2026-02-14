@@ -28,7 +28,7 @@ h1 {
     color: #000000;
 }
 
-div {
+.text-window{
     font-size: 1.5em;
     width: 40%;
     background: #a5c9ec;
@@ -49,8 +49,13 @@ p {
     gap:20px
 }
 
-.text-window, .image-window {
+.image-window {
     flex: 1;
     overflow-y: auto;
     padding: 1rem;
+    
+    display: grid;
+    grid-template-columns: .25fr .25fr;
+    align-items: center;
+    gap: 20px;
 }
