@@ -41,3 +41,16 @@ div {
 p {
     font-size: 1em;
 }
+
+.split-container {
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    gap:20px
+}
+
+.text-window, .image-window {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1rem;
+}
