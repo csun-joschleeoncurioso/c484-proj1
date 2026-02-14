@@ -9,7 +9,7 @@ body {
 
 header h1 {
     display: block;
-    width: 105%;
+    width: 100%;
     left: 50;
     right: 50;
     margin-left: -3vw;
@@ -28,41 +28,43 @@ h1 {
     color: #000000;
 }
 
+.split-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.left-column {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: .1rem;
+}
+
 .text-window{
     font-size: 1.5em;
-    width: 40%;
+    width: 80%;
     background: #a5c9ec;
     border-radius: 0.5em;
     padding: 1em;
     margin: 1em 0;
-    color: black
-}
-
-.image-column {
-    flex:1;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 15px
-}
-
-p {
-    font-size: 1em;
-}
-
-.split-container {
-    display: flex;
-    flex-direction: column;
-
-    align-items: flex-start;
+    color: black;
 }
 
 .image-window {
-    flex: 1;
-    overflow-y: auto;
-    padding: 1rem;
-    
+    flex: 0;
+    column-count: 2;
+    column-gap: 10px;
     display: grid;
-    grid-template-columns: .25fr .25fr;
-    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
+
+.image-window video {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0.25rem;
+}
+
