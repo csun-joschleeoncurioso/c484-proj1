@@ -4,7 +4,7 @@ body {
     font: 100% Arial, Helvetica, sans-serif;
     color: white;
     padding: 0 50px 1em;
-    background: #0066cc;
+    background: rgb(255, 110, 52);
     }
 
 header h1 {
@@ -45,7 +45,7 @@ h1 {
 .text-window{
     font-size: 1.5em;
     width: 80%;
-    background: #a5c9ec;
+    background: #f5ebe3;
     border-radius: 0.5em;
     padding: 1em;
     margin: 1em 0;
@@ -76,3 +76,4 @@ h1 {
 .link-prev {
     text-align: left;
 }
+
