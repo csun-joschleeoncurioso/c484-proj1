@@ -9,7 +9,7 @@ body {
 
 header h1 {
     display: block;
-    width: 100%;
+    width: 110%;
     left: 50;
     right: 50;
     margin-left: -3vw;
@@ -68,3 +68,11 @@ h1 {
     border-radius: 0.25rem;
 }
 
+.link-next {
+    width: 85%;
+    text-align: right;
+}
+
+.link-prev {
+    text-align: left;
+}
